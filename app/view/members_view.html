@@ -1,0 +1,11 @@
+<div class="displayed">
+	<img class="non_slideshow" src="img/members/tapin.jpg">
+	<div data-ng-repeat="classes in spiritMembers">
+		<h4>{{classes.year}}</h4>
+		<table class="center">
+			<tr data-ng-repeat="memberSubGroup in classes.members | groupFilter:3">
+				<td data-ng-repeat="member in memberSubGroup">{{member}}</td>
+			</tr>
+		</table>
+	</div>
+</div>

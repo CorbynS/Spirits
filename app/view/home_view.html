@@ -1,0 +1,44 @@
+
+<div ng-controller="HomeCtrl">
+  <carousel interval="myInterval">
+    <slide ng-repeat="slide in slides" active="slide.active">
+      <img ng-src="{{slide.image}}" style="margin:auto;">
+      <div class="carousel-caption">
+        <p>{{slide.text}}</p>
+      </div>
+    </slide>
+  </carousel>
+</div> 
+<div class="displayed">
+    <div>
+        <h3>About Us</h3>
+        <p>
+            Texas Spirits is an honorary social, spirit, and service organization for
+            students at the University of Texas at Austin. The purpose of Texas Spirits
+            is to promote spirit among the students of the University of Texas and to
+            serve the University and the Austin community in the best way possible. Our
+            four pillars of spirit, love, service, and friendship, represent the core
+            values Texas Spirits strive to uphold.
+        </p>
+        <p>
+            Founded in 1941, we are one of the oldest spirit groups on campus! Our
+            organization takes pride in keeping alive the many traditions of our past.
+            Spirits are everywhere, from the flashcard section at football games to
+            painting the windows on the drag. We do whatever it takes to show our UT
+            spirit!
+        </p>
+    </div>
+
+    <div>
+        <h3>Mission Statement</h3>
+        <p>
+            "The purpose of this organization shall be two-fold; to serve the
+            University of Texas whenever and wherever possible, either by voluntary
+            offering of service at the request of another organization or faculty
+            member, along with promoting spirit in all athletic events of both men
+            and women; and to maintain a well-rounded program for said organization
+            throughout the school year."
+        </p>
+
+    </div>
+</div>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Texas Spirits</title>
+  <script src="lib/angular.js"></script>
+  
+  <script src="lib/carousel/ui-bootstrap-carousel-tpls-0.4.0.js"></script>
+  <script src="lib/underscore/underscore-1.5.1.js"></script>
+
+ <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" />
+ <link rel="stylesheet" href="app/css/main.css" />
+
+</head>
+<body ng-app="Spirits">
+
+<div id="main_app">
+
+  <div id="header">
+	<h1>Texas Spirits</h1>
+	<tabs>
+    	<pane title="Home"></pane>
+    	<pane title="Spirit"></pane>
+    	<pane title="Service"></pane>
+    	<pane title="Social"></pane>
+ 	   	<pane title="Weenies"></pane>
+    	<pane title="Join"></pane>
+    	<pane title="Members"></pane>
+    	<pane title="Alumni"></pane>
+    	<pane title="Contact"></pane>
+    	<pane title="Login"></pane>
+	</tabs>
+  </div>
+  
+  <div id="body">
+  	<ng-view></ng-view>
+  </div>
+
+  <div id="footer">
+	<hr>
+	<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/TxSpirits" data-widget-id="356574093144899585">Tweets by @TxSpirits</a>
+  </div>
+  
+</div>
+
+<script src="app/main.js"></script>
+
+<script src="app/filters/table_group_filter.js"></script>
+
+<script src="app/directives/tabs.js"></script>
+
+<script src="app/control/home_controller.js"></script>
+<script src="app/control/members_controller.js"></script>
+ 
+</body>
