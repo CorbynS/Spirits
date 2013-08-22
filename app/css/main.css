@@ -76,3 +76,8 @@ table.left {
 td {
 	padding: 5px;
 }
+
+button.left-button {
+	display: block;
+	margin-left: 90%;
+}
