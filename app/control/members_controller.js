@@ -64,24 +64,6 @@ angular.module("Spirits").controller("MembersCtrl", function($scope) {
 			             "Madison McCorkle", "Maria Benson", "Montana Blair", "Morgan Lundy",
 			             "Olivia Leitch", "Paige Kroll", "Rachel Bennett", "Shera Williamson"]
 		}];
-	
-	$scope.subGroup = function(input, groupSize) {
-		var groupedLists = [];
-		
-		var i = 0;
-		while(i < input.length) {
-			var subList = [];
-			var count = 0;
-			while(count < groupSize && i < input.length) {
-				subList.push(input[i]);
-				i++;
-				count++;
-			}
-			groupedLists.push(subList);
-		}
-		
-		return groupedLists;
-	}
 });
 
 /**	

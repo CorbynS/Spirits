@@ -45,6 +45,12 @@ img.non_slideshow {
     margin-right: auto;
 }
 
+img.thumbnail {
+	height: 7em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 form {
 	margin: 0 auto;
 	padding-top: 5px;

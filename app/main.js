@@ -26,6 +26,9 @@ angular.module('Spirits', ['ui.bootstrap'], function($routeProvider) {
         	controller: "MembersCtrl"
         }).when("/Alumni", {
         	templateUrl: "app/view/alumni_view.html"
+        }).when("/Contact", {
+        	templateUrl: "app/view/contact_view.html",
+        	controller: "ContactCtrl"
         }).otherwise({
             template: "<div class='displayed'>This page does not yet exist</div>"
         });

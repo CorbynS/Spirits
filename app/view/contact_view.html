@@ -1,0 +1,21 @@
+<div class="displayed">
+	<h3>Ghost Council 2013 </h3>
+	<h4>Texas Spirits' Executive Board</h4>
+	<img class="non_slideshow" src="img/contact/GhostCouncil2013.jpg">
+	<p>
+		The Ghost Council is selected at the end of every fall semester. They serve a one year term, which
+		begins the following spring. Even though the duties of our officers have changed over the years, we
+		have kept the original names of the offices. For example, Royal Spirit Haunt is in charge of drag
+		paint, Special Projects Haunts are our social officers, and Singing Haunt is in charge of designing
+		t-shirts.
+	</p>
+	<table class="center">
+		<tr data-ng-repeat="officerSubGroup in spiritOfficers | groupFilter:3">
+			<td data-ng-repeat="officer in officerSubGroup">
+				<img class="thumbnail" ng-src="{{officer.pic}}"><br/>
+				{{officer.name}}<br />
+				{{officer.title}}<br />
+			</td>
+		</tr>
+	</table>
+</div>
