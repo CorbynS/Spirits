@@ -35,6 +35,10 @@ div.icons-div {
 	right: 0;
 }
 
+a.title-link {
+	color: #CC5500;
+}
+
 img.icons-thumb {
 	height: 3em;
 }

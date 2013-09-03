@@ -5,17 +5,43 @@
 	<p>
 		The Ghost Council is selected at the end of every fall semester. They serve a one year term, which
 		begins the following spring. Even though the duties of our officers have changed over the years, we
-		have kept the original names of the offices. For example, Royal Spirit Haunt is in charge of drag
-		paint, Special Projects Haunts are our social officers, and Singing Haunt is in charge of designing
-		t-shirts.
+		have kept the original names of the offices. For example,
+		<a href="mailto:royalspirithaunt13@gmail.com">Royal Spirit Haunt</a> is in charge of drag
+		paint, <a href="mailto:specialprojecthaunts13@gmail.com">Special Projects Haunts</a> are our social officers,
+		and <a href="mailto:singinghaunt13@gmail.com">Singing Haunt</a> is in charge of designing t-shirts.
 	</p>
 	<table class="center">
 		<tr data-ng-repeat="officerSubGroup in spiritOfficers | groupFilter:3">
 			<td data-ng-repeat="officer in officerSubGroup">
 				<img class="thumbnail" ng-src="{{officer.pic}}"><br/>
-				{{officer.name}}<br />
-				{{officer.title}}<br />
+				<a href="mailto:{{officer.email}}">
+					{{officer.name}}<br />
+					{{officer.title}}<br />
+				</a>
 			</td>
 		</tr>
 	</table>
+	<div style="text-align:left;">
+		Our Ghost Council is always ready to answer and address comments, questions, or concerns. In order to ensure prompt replies to your e-mails, please consider the following:
+		<ul>
+			<li>If your organization is interested in attending a Texas Spirits' meeting, please e-mail our <a href="mailto:chiefhaunt13@gmail.com">Chief Haunt.</a></li>
+			<li>If you have any questions about recruitment, please look at the "Join" page or contact our <a href="mailto:vicehaunt13@gmail.com">Vice Haunt.</a></li>
+			<li>If you have any service related comments, such as you are a band that is interested in
+				playing at Band Jam, please contact our
+				<a href="mailto:servicehaunts13@gmail.com">Service Haunts</a>.
+			</li>
+			<li>If your business is interested in participating in Drag Paint, please e-mail our
+				<a href="mailto:royalspirithaunt13@gmail.com">Royal Spirit Haunt</a>.
+			</li>
+			<li>If you have any comments or concerns about this web site, please e-mail the
+				<a href="mailto:contacthaunt13@gmail.com">Contact Haunt</a>.</li>
+			<li>If your organization is interested in mixing, socializing, etc. please contact our
+				<a href="specialprojectshaunts13@gmail.com">Special Projects Haunts</a>.</li>
+			<li>If you are an alumni and are interested in reconnecting with the organization, please
+				e-mail our <a href="mailto:publicrelationshaunt@gmail.com">Public Relations Haunt</a>.</li>
+		</ul> 
+		If the topic of your comment, question, or concern has not been mentioned, please send it to any of our Ghost Council Officers, and we will make sure that the correct officer gets in
+		touch with you.
+	</div>
+	
 </div>
